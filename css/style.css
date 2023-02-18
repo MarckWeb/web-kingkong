@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    --color-letras: #9cc4e5;
+}
+
+
+body {
+    color: #e0dfe0da;
+    font-family: 'Lucida Sans Regular', sans-serif;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+#container{
+    background-color: #342e29 ;
+    width: 650px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1, h2, h3{
+    color: var(--color-letras);
+    font-weight: normal;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+
+#menu {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 17px;
+    margin: 25px 0;
+    
+}
+
+#menu li {
+    border: 1px solid #e0dfe0da;
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 5px;
+    transition: 0.5s;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu li:hover {
+    background-color: #9cc4e5;
+    
+}
+
+p{
+    text-align: justify;
+    margin: 14px 0;
+}
+
+figure img{
+    border: 5px solid #e0dfe0da;
+    padding: 3px;
+    margin: 10px;
+    transform: scale(1);
+    transition: 0.5s;
+    
+}
+
+figure img:hover{
+    border: 5px solid #9cc4e5;
+    transform: scale(1.1);
+    
+
+}
+
+figure figcaption{
+    margin-bottom: 15px;
+}
+
+blockquote{
+    border-left: 3px solid #e0dfe0da;
+    margin: 25px;
+    padding-left: 25px;
+}
+
+footer{
+    border-top: 1px solid #e0dfe0da;
+    margin-top: 25px;
+}
+
+footer p{
+    text-align: center;
+}
+
+a{
+    color: var(--color-letras);
+}
+
+/* filmografia */
+
+#indice, .autor{
+    padding-left: 50px;
+    margin: 10px 0;
+}
+
+#indice li{
+    margin-top: 5px;
+}
+
+#indice li a{
+    color: #e0dfe0da;
+}
+
+.capitulos{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(139, 139, 218), darkorchid) 1;
+    /*background: linear-gradient(rgb(8, 8, 8), rgb(243, 188, 110)) padding-box,
+              linear-gradient(to right, darkblue, darkorchid) border-box;
+  border-radius: 50em;
+  border: 4px solid transparent;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.subir{
+    text-align: right;
+}
+
+
+
+
+
